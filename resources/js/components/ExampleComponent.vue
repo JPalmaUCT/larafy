@@ -1,5 +1,5 @@
 <template>
-  <v-toolbar dense fixed app>
+  <v-toolbar dense fixed >
         <v-menu bottom left>
               <template v-slot:activator="{ on }">
                 <v-btn icon v-on="on" >

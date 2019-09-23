@@ -15,6 +15,9 @@ use Illuminate\Http\Request;
 Route::get('/', function () {
     return view('homepage');
 });
+Route::get('editor',function () {
+    return view('editorArquetipos');
+});
 Route::get('add','CarController@create');
 Route::post('add','CarController@store');
 Route::get('car','CarController@index');

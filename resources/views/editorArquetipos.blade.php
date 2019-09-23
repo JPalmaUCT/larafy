@@ -1,9 +1,7 @@
 <!doctype html>
 <html lang="{{ app()->getLocale() }}">
     <head>
-        <meta name="csrf-token" content="{{ csrf_token() }}">
         <meta charset="utf-8">
-        
         <link href="https://cdn.jsdelivr.net/npm/@mdi/font@3.x/css/materialdesignicons.min.css" rel="stylesheet">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,10 +12,10 @@
     <body>
             <div id="app">
               <example-component></example-component>
-            <div>
-            <div id="app"> <!--La equita id debe ser app-->
-                <homepage-component></homepage-component><!--Añadimos nuestro componente vuejs-->
             </div>
-        <script src="{{asset('js/app.js')}}"></script> <!--Añadimos el js generado con webpack, donde se encuentra nuestro componente vuejs-->
+            <div id="app">
+              <editor-component></editor-component>
+            </div>
+            <script src="{{asset('js/app.js')}}"></script> <!--Añadimos el js generado con webpack, donde se encuentra nuestro componente vuejs-->
     </body>
 </html>
