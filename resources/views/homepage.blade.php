@@ -15,7 +15,7 @@
             <div id="app">
               <example-component></example-component>
             <div>
-            <div id="app"><!--La equita id debe ser app, como hemos visto en app.js-->
+            <div id="app"><!--La equita id debe ser app-->
                 <homepage-component></homepage-component><!--Añadimos nuestro componente vuejs-->
             </div>
         <script src="{{asset('js/app.js')}}"></script> <!--Añadimos el js generado con webpack, donde se encuentra nuestro componente vuejs-->

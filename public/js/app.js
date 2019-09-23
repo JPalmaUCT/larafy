@@ -121,7 +121,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
@@ -152,10 +151,6 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _app_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../app.js */ "./resources/js/app.js");
-//
-//
-//
-//
 //
 //
 //
@@ -356,7 +351,7 @@ exports.push([module.i, "@charset \"UTF-8\";\n/** Ripples */\n/** Elements */\n@
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/vuetify/dist/vuetify.min.css?bdb9":
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/vuetify/dist/vuetify.min.css":
 /*!***********************************************************************************************************************************!*\
   !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vuetify/dist/vuetify.min.css ***!
   \***********************************************************************************************************************************/
@@ -1543,13 +1538,6 @@ var render = function() {
       _c(
         "v-btn",
         { attrs: { icon: "" } },
-        [_c("v-icon", [_vm._v("mdi-heart")])],
-        1
-      ),
-      _vm._v(" "),
-      _c(
-        "v-btn",
-        { attrs: { icon: "" } },
         [_c("v-icon", [_vm._v("mdi-dots-vertical")])],
         1
       )
@@ -1628,7 +1616,7 @@ var render = function() {
                       _c(
                         "div",
                         { staticClass: "subheading mb-4 text-center" },
-                        [_vm._v("Powered by Vuetify")]
+                        [_vm._v("Powered by Vuetify+Laravel+Vue")]
                       ),
                       _vm._v(" "),
                       _c(
@@ -1639,7 +1627,7 @@ var render = function() {
                             color: "blue lighten-2",
                             dark: "",
                             large: "",
-                            href: "/pre-made-themes"
+                            href: "/car"
                           }
                         },
                         [_vm._v(" Comenzar  ")]
@@ -1670,13 +1658,7 @@ var render = function() {
                     [
                       _c("div", { staticClass: "text-center" }, [
                         _c("h2", { staticClass: "headline" }, [
-                          _vm._v("The best way to start developing")
-                        ]),
-                        _vm._v(" "),
-                        _c("span", { staticClass: "subheading" }, [
-                          _vm._v(
-                            "\n              Cras facilisis mi vitae nunc\n            "
-                          )
+                          _vm._v("¿Que son los arquetipos?")
                         ])
                       ])
                     ]
@@ -1737,14 +1719,14 @@ var render = function() {
                                               staticClass:
                                                 "headline text-center"
                                             },
-                                            [_vm._v("Material Design")]
+                                            [_vm._v("Definicion")]
                                           )
                                         ]
                                       ),
                                       _vm._v(" "),
                                       _c("v-card-text", [
                                         _vm._v(
-                                          "\n                    Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.\n                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.\n                    Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti.\n                  "
+                                          "\n                    Son un modelo original que sirve como pauta para imitarlo, reproducirlo o copiarlo, \n                    o prototipo ideal que sirve como ejemplo, en cuanto a este proyecto el trabajo sera realizado\n                    con arquetipos medicos los cuales contienen informacion de pacientes y pautas a seguir.\n                  "
                                         )
                                       ])
                                     ],
@@ -1792,14 +1774,18 @@ var render = function() {
                                           _c(
                                             "div",
                                             { staticClass: "headline" },
-                                            [_vm._v("Fast development")]
+                                            [
+                                              _vm._v(
+                                                "Objetivos de este proyecto"
+                                              )
+                                            ]
                                           )
                                         ]
                                       ),
                                       _vm._v(" "),
                                       _c("v-card-text", [
                                         _vm._v(
-                                          "\n                    Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.\n                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.\n                    Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti.\n                  "
+                                          "\n                    El de crear un sitio web completo el cual sirva para la creacion y edicion de arquetipos\n                    asi tambien el lograr importar arquetipos en formato ADL y XML desde el repositorio, cuya finalidad\n                    sera de proveer materia prima a los alumnos de segundo año para la creacion de fichas dinamicas.\n\n                  "
                                         )
                                       ])
                                     ],
@@ -1850,14 +1836,18 @@ var render = function() {
                                               staticClass:
                                                 "headline text-center"
                                             },
-                                            [_vm._v("Completely Open Sourced")]
+                                            [
+                                              _vm._v(
+                                                "Completamente Open Source"
+                                              )
+                                            ]
                                           )
                                         ]
                                       ),
                                       _vm._v(" "),
                                       _c("v-card-text", [
                                         _vm._v(
-                                          "\n                    Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.\n                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.\n                    Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti.\n                  "
+                                          "\n                    La ventaja principal del software open source es la posibilidad de compartir, modificar y estudiar el \n                    código fuente de un sistema. Por otro lado, el código abierto promueve la colaboración entre\n                    usuarios. Esta característica supone el desarrollo rápido y variado de multitud de herramientas. \n                  "
                                         )
                                       ])
                                     ],
@@ -1967,16 +1957,12 @@ var render = function() {
                                 },
                                 [
                                   _c("div", { staticClass: "headline" }, [
-                                    _vm._v("Company info")
+                                    _vm._v("Informacion")
                                   ])
                                 ]
                               ),
                               _vm._v(" "),
-                              _c("v-card-text", [
-                                _vm._v(
-                                  "\n                Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.\n                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.\n                Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti.\n              "
-                                )
-                              ])
+                              _c("v-card-text")
                             ],
                             1
                           )
@@ -2000,16 +1986,12 @@ var render = function() {
                                 },
                                 [
                                   _c("div", { staticClass: "headline" }, [
-                                    _vm._v("Contact us")
+                                    _vm._v("Contacto")
                                   ])
                                 ]
                               ),
                               _vm._v(" "),
-                              _c("v-card-text", [
-                                _vm._v(
-                                  "\n                Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.\n              "
-                                )
-                              ]),
+                              _c("v-card-text"),
                               _vm._v(" "),
                               _c(
                                 "v-list",
@@ -2035,11 +2017,7 @@ var render = function() {
                                       _vm._v(" "),
                                       _c(
                                         "v-list-item-content",
-                                        [
-                                          _c("v-list-item-title", [
-                                            _vm._v("777-867-5309")
-                                          ])
-                                        ],
+                                        [_c("v-list-item-title")],
                                         1
                                       )
                                     ],
@@ -2066,11 +2044,7 @@ var render = function() {
                                       _vm._v(" "),
                                       _c(
                                         "v-list-item-content",
-                                        [
-                                          _c("v-list-item-title", [
-                                            _vm._v("Chicago, US")
-                                          ])
-                                        ],
+                                        [_c("v-list-item-title")],
                                         1
                                       )
                                     ],
@@ -2097,11 +2071,7 @@ var render = function() {
                                       _vm._v(" "),
                                       _c(
                                         "v-list-item-content",
-                                        [
-                                          _c("v-list-item-title", [
-                                            _vm._v("john@vuetifyjs.com")
-                                          ])
-                                        ],
+                                        [_c("v-list-item-title")],
                                         1
                                       )
                                     ],
@@ -50712,7 +50682,7 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_vue__;
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../css-loader??ref--6-1!../../postcss-loader/src??ref--6-2!./vuetify.min.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/vuetify/dist/vuetify.min.css?bdb9");
+var content = __webpack_require__(/*! !../../css-loader??ref--6-1!../../postcss-loader/src??ref--6-2!./vuetify.min.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/vuetify/dist/vuetify.min.css");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 

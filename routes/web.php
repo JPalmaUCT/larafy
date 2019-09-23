@@ -10,6 +10,7 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+use Illuminate\Http\Request;
 
 Route::get('/', function () {
     return view('homepage');
@@ -20,4 +21,5 @@ Route::get('car','CarController@index');
 Route::get('edit/{id}','CarController@edit');
 Route::post('edit/{id}','CarController@update');
 Route::delete('{id}','CarController@destroy');
+Route::post('process','fileController@guardar');
 ?>

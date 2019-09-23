@@ -12,8 +12,8 @@
           >
             <img :src="require('../../image/vuetify.png')" alt="Vuetify.js" height="200">
             <h1 class="white--text mb-2 display-1 text-center">Arquetipos</h1>
-            <div class="subheading mb-4 text-center">Powered by Vuetify</div>
-            <v-btn class="mt-12" color="blue lighten-2" dark large href="/pre-made-themes" > Comenzar  </v-btn>
+            <div class="subheading mb-4 text-center">Powered by Vuetify+Laravel+Vue</div>
+            <v-btn class="mt-12" color="blue lighten-2" dark large href="/car" > Comenzar  </v-btn>
           </v-layout>
         </v-parallax>
       </section>
@@ -22,10 +22,7 @@
         <v-layout column wrap class="my-12" align-center>
           <v-flex xs12 sm4 class="my-4">
             <div class="text-center">
-              <h2 class="headline">The best way to start developing</h2>
-              <span class="subheading">
-                Cras facilisis mi vitae nunc
-              </span>
+              <h2 class="headline">¿Que son los arquetipos?</h2>
             </div>
           </v-flex>
           <v-flex xs12>
@@ -37,12 +34,12 @@
                       <v-icon x-large class="blue--text text--lighten-2">mdi-palette</v-icon>
                     </v-card-text>
                     <v-card-title primary-title class="layout justify-center">
-                      <div class="headline text-center">Material Design</div>
+                      <div class="headline text-center">Definicion</div>
                     </v-card-title>
                     <v-card-text>
-                      Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
-                      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                      Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti.
+                      Son un modelo original que sirve como pauta para imitarlo, reproducirlo o copiarlo, 
+                      o prototipo ideal que sirve como ejemplo, en cuanto a este proyecto el trabajo sera realizado
+                      con arquetipos medicos los cuales contienen informacion de pacientes y pautas a seguir.
                     </v-card-text>
                   </v-card>
                 </v-flex>
@@ -52,12 +49,13 @@
                       <v-icon x-large class="blue--text text--lighten-2">mdi-flash</v-icon>
                     </v-card-text>
                     <v-card-title primary-title class="layout justify-center">
-                      <div class="headline">Fast development</div>
+                      <div class="headline">Objetivos de este proyecto</div>
                     </v-card-title>
                     <v-card-text>
-                      Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
-                      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                      Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti.
+                      El de crear un sitio web completo el cual sirva para la creacion y edicion de arquetipos
+                      asi tambien el lograr importar arquetipos en formato ADL y XML desde el repositorio, cuya finalidad
+                      sera de proveer materia prima a los alumnos de segundo año para la creacion de fichas dinamicas.
+
                     </v-card-text>
                   </v-card>
                 </v-flex>
@@ -67,12 +65,12 @@
                       <v-icon x-large class="blue--text text--lighten-2">mdi-wrench</v-icon>
                     </v-card-text>
                     <v-card-title primary-title class="layout justify-center">
-                      <div class="headline text-center">Completely Open Sourced</div>
+                      <div class="headline text-center">Completamente Open Source</div>
                     </v-card-title>
                     <v-card-text>
-                      Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
-                      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                      Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti.
+                      La ventaja principal del software open source es la posibilidad de compartir, modificar y estudiar el 
+                      código fuente de un sistema. Por otro lado, el código abierto promueve la colaboración entre
+                      usuarios. Esta característica supone el desarrollo rápido y variado de multitud de herramientas. 
                     </v-card-text>
                   </v-card>
                 </v-flex>
@@ -98,22 +96,20 @@
             <v-flex xs12 sm4>
               <v-card flat class="transparent">
                 <v-card-title primary-title class="layout justify-center">
-                  <div class="headline">Company info</div>
+                  <div class="headline">Informacion</div>
                 </v-card-title>
                 <v-card-text>
-                  Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
-                  Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                  Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti.
+                  
                 </v-card-text>
               </v-card>
             </v-flex>
             <v-flex xs12 sm4 offset-sm1>
               <v-card flat class="transparent">
                 <v-card-title primary-title class="layout justify-center">
-                  <div class="headline">Contact us</div>
+                  <div class="headline">Contacto</div>
                 </v-card-title>
                 <v-card-text>
-                  Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
+                  <!-- aasasa-->
                 </v-card-text>
                 <v-list class="transparent">
                   <v-list-item>
@@ -121,7 +117,7 @@
                       <v-icon class="blue--text text--lighten-2">mdi-phone</v-icon>
                     </v-list-item-action>
                     <v-list-item-content>
-                      <v-list-item-title>777-867-5309</v-list-item-title>
+                      <v-list-item-title><!-- aasasa--></v-list-item-title>
                     </v-list-item-content>
                   </v-list-item>
                   <v-list-item>
@@ -129,7 +125,7 @@
                       <v-icon class="blue--text text--lighten-2">mdi-map-marker</v-icon>
                     </v-list-item-action>
                     <v-list-item-content>
-                      <v-list-item-title>Chicago, US</v-list-item-title>
+                      <v-list-item-title><!-- aasasa--></v-list-item-title>
                     </v-list-item-content>
                   </v-list-item>
                   <v-list-item>
@@ -137,7 +133,7 @@
                       <v-icon class="blue--text text--lighten-2">mdi-email</v-icon>
                     </v-list-item-action>
                     <v-list-item-content>
-                      <v-list-item-title>john@vuetifyjs.com</v-list-item-title>
+                      <v-list-item-title><!-- aasasa--></v-list-item-title>
                     </v-list-item-content>
                   </v-list-item>
                 </v-list>
