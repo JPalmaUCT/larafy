@@ -10,7 +10,8 @@
               <v-list>
                 <v-list-item v-for="(item, i) in items" :key="i" >
                   <!--@click="" -->
-                  <v-list-item-title>{{ item.title }}</v-list-item-title>
+                  <v-btn color="blue lighten-2" dark :href="item.urls">{{ item.title }}</v-btn>
+                  
                 </v-list-item>
               </v-list>
         </v-menu>
@@ -29,10 +30,8 @@
         data: () => ({
       list : 0,
       items: [
-        { title: 'Crear Arquetipo' },
-        { title: 'Editar Arquetipo' },
-        { title: 'Importar Arquetipo' },
-        { title: 'Exportar Arquetipo' },
+        { title: 'Crear Arquetipo' ,urls:'/crear'},
+        { title: 'Importar Arquetipo',urls:'/importar' },
       ],
     }),
     }

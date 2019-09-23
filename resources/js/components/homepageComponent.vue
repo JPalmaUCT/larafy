@@ -13,7 +13,7 @@
             <img :src="require('../../image/vuetify.png')" alt="Vuetify.js" height="200">
             <h1 class="white--text mb-2 display-1 text-center">Arquetipos</h1>
             <div class="subheading mb-4 text-center">Powered by Vuetify+Laravel+Vue</div>
-            <v-btn class="mt-12" color="blue lighten-2" dark large href="/editor" > Comenzar  </v-btn>
+            <v-btn class="mt-12" color="blue lighten-2" dark large href="" > Comenzar  </v-btn>
           </v-layout>
         </v-parallax>
       </section>
@@ -159,21 +159,3 @@
   </v-app>
 </template>
 
-<script>
-
-    import '../app.js';
-    export default { 
-          data () {
-      return {
-        title: 'Arquetipos',
-              items: [
-        { title: 'Crear Arquetipo' },
-        { title: 'Editar Arquetipo' },
-        { title: 'Importar Arquetipo' },
-        { title: 'Exportar Arquetipo' },
-      ],
-
-      }
-    }
-    }
-</script>
