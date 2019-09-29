@@ -7,16 +7,12 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Editor De Arquetipos</title>
-        <link href="{{asset('css/app.css')}}" rel="stylesheet"> <!--Añadimos el css generado con webpack- {{asset('css/app.css')}}-->
+        <link href="{{asset('css/app.css')}}" rel="stylesheet"> 
         <link href="{{asset('bootstrap.js')}}" rel="stylesheet">
     </head>
     <body>
 
             <div id="app">
-            @if (\Session::has('success'))
-              <v-alert type="success" :dismissible="dismissible">{{ \Session::get('success') }}</v-alert>
-              <br/>
-            @endif
               <example-component></example-component>
               <editor-component></editor-component>
             </div>

@@ -47,6 +47,10 @@ return [
             'driver' => 'local',
             'root' => storage_path('app/json')
         ],
+        'xml_imports' => [
+            'driver' => 'local',
+            'root' => storage_path('app/xml_imports')
+        ],
 
         'local' => [
             'driver' => 'local',

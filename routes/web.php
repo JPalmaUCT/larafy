@@ -16,11 +16,12 @@ Route::get('/', function () {
     return view('homepage');
 });
 Route::get('importar','filecontroller@index');
-Route::get('add','CarController@create');
+/*Route::get('add','CarController@create');
 Route::post('add','CarController@store');
 Route::get('car','CarController@index');
 Route::get('edit/{id}','CarController@edit');
 Route::post('edit/{id}','CarController@update');
-Route::delete('{id}','CarController@destroy');
+Route::delete('{id}','CarController@destroy');*/
 Route::post('process','fileController@guardar');
+Route::get('pruebaxml','xmlController@index');//este es de pruebas  para xml luego borrar
 ?>
